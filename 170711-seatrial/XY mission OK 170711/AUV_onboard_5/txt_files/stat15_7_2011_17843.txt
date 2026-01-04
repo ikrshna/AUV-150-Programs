@@ -1,0 +1,6 @@
+22:38:43 MH:Number of processors on the system: 2
+22:38:43 MH:Configured as RealTime Process!!!
+22:38:43 MH:Opened UTM coords file
+
+22:38:43 MH:USB DA initialisation complete!!!
+22:38:45 MH:TCP/IP DA initialisation failed!!!

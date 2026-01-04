@@ -1,0 +1,105 @@
+22:24:17 MH:Number of processors on the system: 2
+22:24:17 MH:Configured as RealTime Process!!!
+22:24:17 MH:Opened UTM coords file
+
+22:24:17 MH:USB DA initialisation complete!!!
+22:24:17 MH:TCP/IP DA initialisation complete!!!
+22:24:17 MH:Device Initialization complete!!!
+22:24:18 MH:PHINS initialized and data consistent!!!
+22:24:18 MH:Pressure sensor data consistent!!!
+22:24:19 MH:FLS device level configuration done!!!
+22:24:19 MH:Sensor initialisation and data check complete!!!
+22:24:19 MH:Mission file opened succesfully
+22:24:19 MH:Ready to send post-launching information: Altimetry and Position to Surface!!!
+22:24:19 MH:Mission ready to be started!!!
+22:24:59 MH:Mission started!!!
+
+22:24:59 MH:Diving initiated
+22:24:59 MH:Diving in progress
+22:25:01 MH:Diving in progress
+22:25:02 MH:Diving in progress
+22:25:04 MH:Diving in progress
+22:25:05 MH:Diving in progress
+22:25:06 MH:Diving in progress
+22:25:07 MH:Diving in progress
+22:25:08 MH:Diving in progress
+22:25:09 MH:Diving in progress
+22:25:11 MH:Diving in progress
+22:25:12 MH:Diving in progress
+22:25:14 MH:Diving in progress
+22:25:15 MH:Diving in progress
+22:25:16 MH:Diving in progress
+22:25:17 MH:Diving in progress
+22:25:18 MH:Diving in progress
+22:25:19 MH:Diving in progress
+22:25:21 MH:Diving in progress
+22:25:22 MH:Diving in progress
+22:25:23 MH:Diving in progress
+22:25:25 MH:Diving in progress
+22:25:26 MH:Diving in progress
+22:25:27 MH:Diving in progress
+22:25:28 MH:Diving in progress
+22:25:29 MH:Diving in progress
+22:25:30 MH:Diving in progress
+22:25:32 MH:Diving in progress
+22:25:33 MH:Diving in progress
+22:25:35 MH:Diving in progress
+22:25:36 MH:Diving in progress
+22:25:37 MH:Diving in progress
+22:25:38 MH:Diving in progress
+22:25:39 MH:Diving in progress
+22:25:40 MH:Diving in progress
+22:25:42 MH:Diving in progress
+22:25:43 MH:Diving in progress
+22:25:45 MH:Diving in progress
+22:25:46 MH:Diving in progress
+22:25:47 MH:Diving in progress
+22:25:48 MH:Diving in progress
+22:25:49 MH:Diving in progress
+22:25:50 MH:Diving in progress
+22:25:51 MH:Diving in progress
+22:25:53 MH:Diving in progress
+22:25:55 MH:Diving in progress
+22:25:56 MH:Diving in progress
+22:25:57 MH:Diving in progress
+22:25:59 MH:Diving in progress
+22:26:00 MH:Diving in progress
+22:26:01 MH:Diving in progress
+22:26:03 MH:Diving in progress
+22:26:05 MH:Diving in progress
+22:26:06 MH:Diving in progress
+22:26:07 MH:Diving in progress
+22:26:08 MH:Diving in progress
+22:26:10 MH:Diving in progress
+22:26:11 MH:Diving in progress
+22:26:14 MH:Diving in progress
+22:26:15 MH:Diving in progress
+22:26:16 MH:Diving in progress
+22:26:17 MH:Diving in progress
+22:26:18 MH:Diving in progress
+22:26:20 MH:Diving in progress
+22:26:21 MH:Diving in progress
+22:26:22 MH:Diving in progress
+22:26:24 MH:Diving in progress
+22:26:25 MH:Diving in progress
+22:26:26 MH:Diving in progress
+22:26:27 MH:Diving in progress
+22:26:28 MH:Diving in progress
+22:26:29 MH:Diving in progress
+22:26:31 MH:Diving in progress
+22:26:32 MH:Diving in progress
+22:26:34 MH:Diving in progress
+22:26:35 MH:Diving in progress
+22:26:36 MH:Diving in progress
+22:26:37 MH:Diving in progress
+22:26:38 MH:Diving in progress
+22:26:39 MH:Diving in progress
+22:26:41 MH:Diving in progress
+22:26:42 MH:Diving in progress
+22:26:44 MH:Diving in progress
+22:26:45 MH:Diving in progress
+22:26:46 MH:Diving in progress
+22:26:47 MH:Diving in progress
+22:26:48 MH:Diving in progress
+22:26:49 MH:Diving in progress
+22:26:49 MH:ABORT Command Received: Premature Termination

@@ -1,0 +1,20 @@
+16:27:04 MH:Number of processors on the system: 2
+16:27:04 MH:Configured as RealTime Process!!!
+16:27:04 MH:Opened UTM coords file
+
+16:27:04 MH:USB DA initialisation complete!!!
+16:27:04 MH:TCP/IP DA initialisation complete!!!
+16:27:04 MH:Device Initialization complete!!!
+16:27:04 MH:PHINS initialized and data consistent!!!
+16:27:04 MH:Pressure sensor data consistent!!!
+16:27:40 MH:Altimetry data from altimeter consistent!!!
+16:27:41 MH:FLS device level configuration done!!!
+16:27:41 MH:Sensor initialisation and data check complete!!!
+16:27:41 MH:Mission file opened succesfully
+16:27:41 MH:Ready to send post-launching information: Altimetry and Position to Surface!!!
+16:27:41 MH:Mission ready to be started!!!
+16:27:53 MH:Mission shall commence within 15 minutes!!!
+
+16:27:55 MH:Mission started!!!
+
+16:29:56 MH:Watchdog Timed Out

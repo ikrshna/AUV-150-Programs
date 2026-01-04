@@ -1,0 +1,7 @@
+08:44:06 MH:Number of processors on the system: 2
+08:44:06 MH:Configured as RealTime Process!!!
+08:44:06 MH:Opened UTM coords file
+
+08:44:06 MH:USB DA initialisation complete!!!
+08:44:06 MH:TCP/IP DA initialisation complete!!!
+08:44:06 MH:Device Initialization complete!!!

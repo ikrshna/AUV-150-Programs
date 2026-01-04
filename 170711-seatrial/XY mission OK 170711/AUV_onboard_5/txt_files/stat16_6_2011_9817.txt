@@ -1,0 +1,5 @@
+14:38:17 MH:Number of processors on the system: 2
+14:38:17 MH:Configured as RealTime Process!!!
+14:38:17 MH:USB DA initialisation complete!!!
+14:38:17 MH:TCP/IP DA initialisation complete!!!
+14:38:17 MH:Device Initialization complete!!!

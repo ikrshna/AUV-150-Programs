@@ -1,0 +1,5 @@
+22:37:28 MH:Number of processors on the system: 2
+22:37:28 MH:Configured as RealTime Process!!!
+22:37:28 MH:Opened UTM coords file
+
+22:37:29 MH:PHINS initialized and data consistent!!!

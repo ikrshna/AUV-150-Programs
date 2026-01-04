@@ -1,0 +1,12 @@
+19:16:04 MH:Number of processors on the system: 2
+19:16:04 MH:Configured as RealTime Process!!!
+19:16:04 MH:USB DA initialisation complete!!!
+19:16:04 MH:TCP/IP DA initialisation complete!!!
+19:16:04 MH:Device Initialization complete!!!
+19:16:04 MH:PHINS initialized and data consistent!!!
+19:16:05 MH:Pressure sensor data consistent!!!
+19:16:05 MH:Altimetry data from altimeter consistent!!!
+19:16:05 MH:Sensor initialisation and data check complete!!!
+19:16:05 MH:Mission file opened succesfully
+19:16:05 MH:Ready to send post-launching information: Altimetry and Position to Surface!!!
+19:16:05 MH:Mission ready to be started!!!

@@ -1,0 +1,16 @@
+22:18:43 MH:Number of processors on the system: 2
+22:18:43 MH:Configured as RealTime Process!!!
+22:18:43 MH:Opened UTM coords file
+
+22:18:43 MH:USB DA initialisation complete!!!
+22:18:43 MH:TCP/IP DA initialisation complete!!!
+22:18:43 MH:Device Initialization complete!!!
+22:18:44 MH:PHINS initialized and data consistent!!!
+22:18:45 MH:Pressure sensor data consistent!!!
+22:18:46 MH:FLS device level configuration done!!!
+22:18:46 MH:Sensor initialisation and data check complete!!!
+22:18:46 MH:Mission file opened succesfully
+22:18:46 MH:Ready to send post-launching information: Altimetry and Position to Surface!!!
+22:18:46 MH:Mission ready to be started!!!
+22:20:26 MH:Mission Abort Command Received
+22:20:26 MH:ABORT Command Received: Premature Termination

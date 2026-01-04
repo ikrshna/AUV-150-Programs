@@ -1,0 +1,4 @@
+18:05:37 MH:Number of processors on the system: 2
+18:05:37 MH:Configured as RealTime Process!!!
+18:05:37 MH:Opened UTM coords file
+

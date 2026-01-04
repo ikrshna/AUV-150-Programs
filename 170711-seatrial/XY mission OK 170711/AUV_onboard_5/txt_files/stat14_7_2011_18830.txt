@@ -1,0 +1,37 @@
+23:38:30 MH:Number of processors on the system: 2
+23:38:30 MH:Configured as RealTime Process!!!
+23:38:30 MH:Opened UTM coords file
+
+23:38:30 MH:USB DA initialisation complete!!!
+23:38:30 MH:TCP/IP DA initialisation complete!!!
+23:38:30 MH:Device Initialization complete!!!
+23:38:31 MH:PHINS initialized and data consistent!!!
+23:38:31 MH:Pressure sensor data consistent!!!
+23:38:32 MH:FLS device level configuration done!!!
+23:38:32 MH:Sensor initialisation and data check complete!!!
+23:38:32 MH:Mission file opened succesfully
+23:38:32 MH:Ready to send post-launching information: Altimetry and Position to Surface!!!
+23:38:32 MH:Mission ready to be started!!!
+23:38:47 CO:Mission Time: 2 Reference Depth: 2
+23:38:59 MH:Mission shall commence within 7 minutes!!!
+
+23:39:59 MH:Mission started!!!
+
+23:39:59 MH:Diving initiated
+23:39:59 MH:Diving in progress
+23:40:00 MH:Diving in progress
+23:40:02 MH:Diving in progress
+23:40:03 MH:Diving in progress
+23:40:06 MH:Diving in progress
+23:40:08 MH:Diving in progress
+23:40:09 MH:Diving in progress
+23:40:10 MH:Diving in progress
+23:40:12 MH:Diving in progress
+23:40:13 MH:Diving in progress
+23:40:14 MH:Diving in progress
+23:40:15 MH:Diving in progress
+23:40:17 MH:Diving in progress
+23:40:18 MH:Diving in progress
+23:40:19 MH:Diving in progress
+23:40:20 MH:Diving in progress
+23:40:20 MH:ABORT Command Received: Premature Termination

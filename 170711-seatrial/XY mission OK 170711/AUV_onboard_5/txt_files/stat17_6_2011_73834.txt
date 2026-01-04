@@ -1,0 +1,20 @@
+13:08:34 MH:Number of processors on the system: 2
+13:08:34 MH:Configured as RealTime Process!!!
+13:08:34 MH:USB DA initialisation complete!!!
+13:08:34 MH:TCP/IP DA initialisation complete!!!
+13:08:34 MH:Device Initialization complete!!!
+13:08:34 MH:PHINS initialized and data consistent!!!
+13:08:34 MH:Pressure sensor data consistent!!!
+13:08:35 MH:Altimetry data from altimeter consistent!!!
+13:08:35 MH:Sensor initialisation and data check complete!!!
+13:08:35 MH:Mission file opened succesfully
+13:08:35 MH:Ready to send post-launching information: Altimetry and Position to Surface!!!
+13:08:35 MH:Mission ready to be started!!!
+13:08:50 MH:Mission started!!!
+
+13:08:50 MH:Initiated XY Operation
+13:08:50 MH:Read trajectory segment
+13:09:38 MH:Segment Completed!!!
+
+13:09:39 MH:Read trajectory segment
+13:09:55 MH:ABORT Command Received: Premature Termination

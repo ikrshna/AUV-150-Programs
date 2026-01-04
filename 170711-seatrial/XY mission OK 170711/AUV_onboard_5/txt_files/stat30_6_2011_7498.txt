@@ -1,0 +1,9 @@
+13:19:08 MH:Number of processors on the system: 2
+13:19:08 MH:Configured as RealTime Process!!!
+13:19:08 MH:Opened UTM coords file
+
+13:19:08 MH:USB DA initialisation complete!!!
+13:19:08 MH:TCP/IP DA initialisation complete!!!
+13:19:08 MH:Device Initialization complete!!!
+13:19:09 MH:PHINS initialized and data consistent!!!
+13:19:10 MH:Pressure sensor data consistent!!!
