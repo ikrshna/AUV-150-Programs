@@ -1,0 +1,512 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\auv.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\auv.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 54
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About auv"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,27,21,20
+    LTEXT           "auv Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDC_AUV_DLG DIALOGEX 0, 0, 596, 356
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "AUV Surface Control"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "From Altimeter :",IDC_STATIC_ALTIm,468,85,53,8
+    GROUPBOX        "Mission Particulars",IDC_STATIC,161,12,198,49
+    COMBOBOX        IDC_COMBO_COMMAND,378,28,80,73,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "&Submit",IDC_BUTTON_SUBMIT,289,32,59,14
+    GROUPBOX        "Attitude Information",IDC_STATIC,11,71,79,66
+    LTEXT           "Roll =",IDC_STATIC,23,86,19,8
+    LTEXT           "Pitch =",IDC_STATIC,19,102,23,8
+    LTEXT           "Yaw =",IDC_STATIC,21,118,21,8
+    GROUPBOX        "Battery Banks",IDC_STATIC,11,165,174,71
+    GROUPBOX        "Communication Mode",IDC_STATIC,11,13,81,48,WS_GROUP
+    PUSHBUTTON      "E&xit",IDOK,539,338,53,15
+    GROUPBOX        "1",IDC_STATIC_BAT1,47,181,21,49,BS_CENTER | WS_GROUP
+    GROUPBOX        "2",IDC_STATIC_BAT2,69,181,21,49,BS_CENTER | WS_GROUP
+    GROUPBOX        "3",IDC_STATIC_BAT3,91,181,21,49,BS_CENTER | WS_GROUP
+    GROUPBOX        "4",IDC_STATIC_BAT4,113,181,21,49,BS_CENTER | WS_GROUP
+    GROUPBOX        "5",IDC_STATIC_BAT5,135,181,21,49,BS_CENTER | WS_GROUP
+    GROUPBOX        "6",IDC_STATIC_BAT6,157,181,21,49,BS_CENTER | WS_GROUP
+    LTEXT           "Safe",IDC_STATIC_SAFE,27,191,16,8
+    LTEXT           "Alarming",IDC_STATIC_ALARMING,15,202,28,8
+    LTEXT           "Critical",IDC_STATIC_CRITICAL,21,215,22,8
+    CONTROL         "",IDC_BUTTON_BAT1_SAFE,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,51,189,14,12
+    CONTROL         "",IDC_BUTTON_BAT1_ALM,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,51,202,14,12
+    CONTROL         "",IDC_BUTTON_BAT1_CRT,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,51,213,14,12
+    CONTROL         "",IDC_BUTTON_BAT2_SAFE,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,73,189,14,12
+    CONTROL         "",IDC_BUTTON_BAT2_ALM,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,73,202,14,12
+    CONTROL         "",IDC_BUTTON_BAT2_CRT,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,73,213,14,12
+    CONTROL         "",IDC_BUTTON_BAT3_SAFE,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,95,189,14,12
+    CONTROL         "",IDC_BUTTON_BAT3_ALM,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,95,202,14,12
+    CONTROL         "",IDC_BUTTON_BAT3_CRT,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,95,213,14,12
+    CONTROL         "",IDC_BUTTON_BAT4_SAFE,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,117,189,14,12
+    CONTROL         "",IDC_BUTTON_BAT4_ALM,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,117,202,14,12
+    CONTROL         "",IDC_BUTTON_BAT4_CRT,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,117,213,14,12
+    CONTROL         "",IDC_BUTTON_BAT5_SAFE,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,139,189,14,12
+    CONTROL         "",IDC_BUTTON_BAT5_ALM,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,139,202,14,12
+    CONTROL         "",IDC_BUTTON_BAT5_CRT,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,139,213,14,12
+    CONTROL         "",IDC_BUTTON_BAT6_SAFE,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,161,189,14,12
+    CONTROL         "",IDC_BUTTON_BAT6_ALM,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,161,202,14,12
+    CONTROL         "",IDC_BUTTON_BAT6_CRT,"Button",BS_OWNERDRAW | 
+                    WS_DISABLED | WS_TABSTOP,161,213,14,12
+    CONTROL         "",IDC_BUTTON_RF,"Button",BS_OWNERDRAW | WS_DISABLED | 
+                    WS_TABSTOP,37,30,24,20
+    CONTROL         "",IDC_BUTTON_LEAK,"Button",BS_OWNERDRAW | WS_DISABLED | 
+                    WS_TABSTOP,114,30,24,20
+    GROUPBOX        "Leak",IDC_STATIC,97,13,59,48,BS_CENTER
+    GROUPBOX        "Altimetry",IDC_STATIC,460,70,123,41
+    LISTBOX         IDC_LIST_ACOUSTIC,380,193,203,57,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_GENMESS,6,252,359,93,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "General Messages:",IDC_STATIC,6,242,62,8
+    LTEXT           "Acoustic Data :",IDC_STATIC,381,183,50,8
+    CTEXT           "",IDC_STATIC_A_ALTI,540,85,37,10
+    CTEXT           "static",IDC_STATIC_ROLL,47,86,37,10
+    CTEXT           "static",IDC_STATIC_PITCH,47,102,37,10
+    CTEXT           "static",IDC_STATIC_YAW,47,118,37,10
+    LTEXT           "Surge =",IDC_STATIC,15,147,25,8
+    CTEXT           "static",IDC_STATIC_SURGE,45,147,37,10
+    COMBOBOX        IDC_COMBO_MISSDUR,231,23,46,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_REFDEPTH,231,44,46,46,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Reference Depth:",IDC_STATIC,167,47,58,8
+    LTEXT           "Mission Duration :",IDC_STATIC,167,26,57,8
+    GROUPBOX        "Position Information",IDC_STATIC,96,71,178,92,BS_CENTER
+    LTEXT           "Lat =",IDC_STATIC,112,101,17,8
+    LTEXT           "Long =",IDC_STATIC,192,101,23,8
+    LTEXT           "Northing =",IDC_STATIC,104,142,34,8
+    LTEXT           "Easting =",IDC_STATIC,185,142,30,8
+    GROUPBOX        "Current Position GPS",IDC_STATIC,100,87,169,31
+    GROUPBOX        "Current Position UTM",IDC_STATIC,100,126,169,34
+    LTEXT           "Static",IDC_STATIC_LAT,143,102,37,10
+    LTEXT           "Static",IDC_STATIC_LON,225,101,37,10
+    LTEXT           "Static",IDC_STATIC_EAST,225,142,37,10
+    LTEXT           "Static",IDC_STATIC_NORTH,143,143,37,10
+    LTEXT           "From DVL :",IDC_STATIC_ALTIm2,468,97,53,8
+    CTEXT           "",IDC_STATIC_D_ALTI,540,97,37,10
+    GROUPBOX        "",IDC_STATIC,281,71,174,41
+    LTEXT           "Elapsed Time :",IDC_STATIC,293,83,48,8
+    LTEXT           "Remaining Time :",IDC_STATIC,293,99,56,8
+    CTEXT           "Static",IDC_STATIC_ELAPSED,363,83,43,8
+    CTEXT           "Static",IDC_STATIC_REM,363,99,43,8
+    GROUPBOX        "Autonomous Mode Commands",IDC_STATIC,368,13,172,57
+    PUSHBUTTON      "Submit",IDC_BUTTON_AUTO,471,28,50,14
+    PUSHBUTTON      "Switch Light ON",IDC_BUTTON_LIGHT,463,48,71,14
+    GROUPBOX        "",IDC_STATIC,11,138,80,24
+    GROUPBOX        "Manual Mode Commands",IDC_STATIC,281,117,214,63
+    PUSHBUTTON      "Submit",IDC_BUTTON_MAN,437,156,50,14
+    COMBOBOX        IDC_COMBO_CT,373,135,48,46,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MT,373,157,48,46,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Control Thruster values :",IDC_STATIC,291,137,78,8
+    LTEXT           "Main Thruster values :",IDC_STATIC,299,159,71,8
+    PUSHBUTTON      "Generate Mission File",IDC_BUTTON_MFGEN,507,121,50,34,
+                    BS_CENTER | BS_MULTILINE | BS_NOTIFY | BS_FLAT | 
+                    WS_DISABLED
+    PUSHBUTTON      "Emergency Stop",IDC_BUTTON_STOP,249,217,49,20,
+                    BS_MULTILINE
+    LISTBOX         IDC_LIST_ACOUSTICD,380,270,41,57,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "Depth Received from Acoustic Data:",IDC_STATIC,379,259,
+                    117,8
+END
+
+IDD_GENMF_DLG DIALOG DISCARDABLE  0, 0, 207, 132
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mission File Generator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "E&xit",IDOK,150,56,43,14
+    EDITTEXT        IDC_EDIT_HEAD,15,13,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SURGE,55,13,28,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TIME,91,14,29,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_MFGEN,16,33,88,60,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,110,76,33,14
+    PUSHBUTTON      "Save",IDC_BUTTON_DOWNLOAD,151,35,43,13
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD,110,34,33,14
+    PUSHBUTTON      "Edit",IDC_BUTTON_EDIT,110,55,33,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "auv MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "auv\0"
+            VALUE "LegalCopyright", "Copyright (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "auv.EXE\0"
+            VALUE "ProductName", "auv Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDC_AUV_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 592
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+
+    IDD_GENMF_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDC_AUV_DLG DLGINIT
+BEGIN
+    IDC_COMBO_COMMAND, 0x403, 14, 0
+0x694d, 0x7373, 0x6f69, 0x206e, 0x7453, 0x7261, 0x0074, 
+    IDC_COMBO_COMMAND, 0x403, 14, 0
+0x694d, 0x7373, 0x6f69, 0x206e, 0x6241, 0x726f, 0x0074, 
+    IDC_COMBO_COMMAND, 0x403, 12, 0
+0x7953, 0x7473, 0x6d65, 0x4820, 0x6c61, 0x0074, 
+    IDC_COMBO_COMMAND, 0x403, 14, 0
+0x7953, 0x7473, 0x6d65, 0x5220, 0x6265, 0x6f6f, 0x0074, 
+    IDC_COMBO_COMMAND, 0x403, 15, 0
+0x6552, 0x7571, 0x7365, 0x2074, 0x7453, 0x7461, 0x7375, "\000" 
+    IDC_COMBO_COMMAND, 0x403, 13, 0
+0x6552, 0x7571, 0x7365, 0x2074, 0x6144, 0x6174, "\000" 
+    IDC_COMBO_MISSDUR, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_MISSDUR, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_MISSDUR, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_MISSDUR, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_MISSDUR, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_MISSDUR, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_MISSDUR, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_MISSDUR, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_MISSDUR, 0x403, 3, 0
+0x3036, "\000" 
+    IDC_COMBO_MISSDUR, 0x403, 3, 0
+0x3039, "\000" 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3231, 0x0030, 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3531, 0x0030, 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3831, 0x0030, 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3032, 0x0030, 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3232, 0x0030, 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3432, 0x0030, 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3532, 0x0030, 
+    IDC_COMBO_MISSDUR, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_COMBO_REFDEPTH, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_REFDEPTH, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_REFDEPTH, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3533, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3534, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3035, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3535, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3036, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3536, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3037, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3537, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3038, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3138, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3538, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3039, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 3, 0
+0x3539, "\000" 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3031, 0x0035, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3131, 0x0030, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3131, 0x0035, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3231, 0x0030, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3231, 0x0035, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3331, 0x0030, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3331, 0x0035, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3431, 0x0030, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3431, 0x0035, 
+    IDC_COMBO_REFDEPTH, 0x403, 4, 0
+0x3531, 0x0030, 
+    IDC_COMBO_CT, 0x403, 4, 0
+0x332d, 0x0030, 
+    IDC_COMBO_CT, 0x403, 4, 0
+0x322d, 0x0030, 
+    IDC_COMBO_CT, 0x403, 4, 0
+0x312d, 0x0030, 
+    IDC_COMBO_CT, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_CT, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_CT, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_CT, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_MT, 0x403, 5, 0
+0x342d, 0x302e, "\000" 
+    IDC_COMBO_MT, 0x403, 5, 0
+0x332d, 0x352e, "\000" 
+    IDC_COMBO_MT, 0x403, 5, 0
+0x322d, 0x302e, "\000" 
+    IDC_COMBO_MT, 0x403, 5, 0
+0x312d, 0x382e, "\000" 
+    IDC_COMBO_MT, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_MT, 0x403, 4, 0
+0x2e31, 0x0038, 
+    IDC_COMBO_MT, 0x403, 4, 0
+0x2e32, 0x0030, 
+    IDC_COMBO_MT, 0x403, 4, 0
+0x2e33, 0x0035, 
+    IDC_COMBO_MT, 0x403, 4, 0
+0x2e34, 0x0030, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About auv..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\auv.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

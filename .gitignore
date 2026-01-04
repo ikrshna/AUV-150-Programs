@@ -1,0 +1,24 @@
+# Ignore all text files
+txt_files/
+
+# Ignore Visual Studio build artifacts
+Debug/
+*.obj
+*.pdb
+*.ilk
+*.pch
+*.idb
+*.res
+*.aps
+*.clw
+*.opt
+*.ncb
+*.plg
+*.exe
+
+# Ignore Windows and system files
+Thumbs.db
+.DS_Store
+
+# Ignore zip files (since you have AUV_onboard_5.zip)
+*.zip

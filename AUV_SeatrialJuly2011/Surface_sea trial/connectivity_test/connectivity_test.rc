@@ -1,0 +1,325 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\connectivity_test.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\connectivity_test.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About connectivity_test"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "connectivity_test Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CONNECTIVITY_TEST_DIALOG DIALOGEX 0, 0, 449, 342
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Connectivity Test"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "E&xit",IDOK,392,321,50,14
+    GROUPBOX        "Check Connectivity",IDC_STATIC_CONNECTIVITY,13,50,172,
+                    160
+    PUSHBUTTON      "Altimeter",IDC_BUTTON_ALTIMETER,24,70,50,14
+    PUSHBUTTON      "Depth Sensor",IDC_BUTTON_DEPTH,24,90,50,14
+    PUSHBUTTON      "PHINS",IDC_BUTTON_PHINS,24,110,50,14
+    PUSHBUTTON      "DVL",IDC_BUTTON_DVL,24,130,50,14
+    PUSHBUTTON      "GPS",IDC_BUTTON_GPS,24,150,50,14
+    PUSHBUTTON      "FLS",IDC_BUTTON_FLS,24,170,50,14
+    PUSHBUTTON      "SSS",IDC_BUTTON_SSS,24,190,50,14
+    PUSHBUTTON      "&Connect",IDC_BUTTON_CONN,21,21,56,16
+    GROUPBOX        "Connect to Server",IDC_STATIC,13,7,171,36
+    CTEXT           "Static",IDC_STATIC_CONN,111,24,63,8
+    CTEXT           "Static",IDC_STATIC_ALTIMETER,91,73,88,10
+    CTEXT           "Static",IDC_STATIC_DEPTH,91,94,88,10
+    CTEXT           "Static",IDC_STATIC_PHINS,91,113,88,10
+    CTEXT           "Static",IDC_STATIC_DVL,91,133,88,10
+    CTEXT           "Static",IDC_STATIC_GPS,91,154,88,10
+    CTEXT           "Static",IDC_STATIC_FLS,91,173,88,10
+    CTEXT           "Static",IDC_STATIC_SSS,91,193,88,10
+    LISTBOX         IDC_LIST_STATUS,201,10,218,86,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Close Status Server",IDC_BUTTON_SHUTDOWN,357,277,47,35,
+                    BS_MULTILINE | BS_FLAT
+    GROUPBOX        "Manual Mode Commands",IDC_STATIC,14,212,221,98
+    PUSHBUTTON      "Submit",IDC_BUTTON_MAN,181,289,50,14
+    COMBOBOX        IDC_COMBO_CT,121,252,48,46,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MT,121,291,48,46,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Nose Control Thruster values :",IDC_STATIC,24,254,96,8
+    LTEXT           "Main Thruster values :",IDC_STATIC,47,294,71,8
+    EDITTEXT        IDC_EDIT_HEAD,249,116,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SURGE,321,117,28,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TIME,379,117,29,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_MFGEN,211,137,88,62,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,313,173,33,14
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE,358,174,34,13
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD,314,151,33,14
+    PUSHBUTTON      "Edit",IDC_BUTTON_EDIT,358,151,33,14
+    GROUPBOX        "Mission File Generator",IDC_STATIC,201,105,220,104
+    PUSHBUTTON      "",IDC_BUTTON_RELAY,23,225,68,22,BS_MULTILINE
+    PUSHBUTTON      "Launch AUV OnBoard Control Program",IDC_BUTTON_LAUNCH,
+                    238,277,50,34,BS_MULTILINE | BS_FLAT
+    LTEXT           "Heading",IDC_STATIC,211,119,31,12
+    LTEXT           "Surge",IDC_STATIC,289,118,25,12
+    LTEXT           "Time",IDC_STATIC,355,118,19,12
+    PUSHBUTTON      "System Power OFF",IDC_BUTTON_OFF,291,276,61,35,
+                    BS_MULTILINE | BS_FLAT
+    COMBOBOX        IDC_COMBO_CT2,121,272,48,46,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Tail Control Thruster values :",IDC_STATIC,23,274,91,8
+    EDITTEXT        IDC_EDIT_NORTHING,292,241,57,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EASTING,291,258,57,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZONE,292,224,22,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Download UTM Coordinates",IDC_BUTTON_UTM,356,223,47,45,
+                    BS_MULTILINE | BS_FLAT
+    LTEXT           "UTM Zone",IDC_STATIC,247,226,38,12
+    LTEXT           "Northing",IDC_STATIC,253,243,31,11
+    LTEXT           "Easting",IDC_STATIC,253,259,31,12
+    GROUPBOX        "",IDC_STATIC,239,212,169,61
+    PUSHBUTTON      "Suspend Manual Operation ",IDC_BUTTON_THREAD,182,252,46,
+                    30,BS_MULTILINE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "connectivity_test MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "connectivity_test\0"
+            VALUE "LegalCopyright", "Copyright (C) 2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "connectivity_test.EXE\0"
+            VALUE "ProductName", "connectivity_test Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CONNECTIVITY_TEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 442
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 335
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CONNECTIVITY_TEST_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_CT, 0x403, 4, 0
+0x332d, 0x0030, 
+    IDC_COMBO_CT, 0x403, 4, 0
+0x322d, 0x0030, 
+    IDC_COMBO_CT, 0x403, 4, 0
+0x312d, 0x0030, 
+    IDC_COMBO_CT, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_CT, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_CT, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_CT, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_MT, 0x403, 5, 0
+0x342d, 0x302e, "\000" 
+    IDC_COMBO_MT, 0x403, 5, 0
+0x332d, 0x352e, "\000" 
+    IDC_COMBO_MT, 0x403, 5, 0
+0x322d, 0x302e, "\000" 
+    IDC_COMBO_MT, 0x403, 5, 0
+0x312d, 0x382e, "\000" 
+    IDC_COMBO_MT, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_MT, 0x403, 4, 0
+0x2e31, 0x0038, 
+    IDC_COMBO_MT, 0x403, 4, 0
+0x2e32, 0x0030, 
+    IDC_COMBO_MT, 0x403, 4, 0
+0x2e33, 0x0035, 
+    IDC_COMBO_MT, 0x403, 4, 0
+0x2e34, 0x0030, 
+    IDC_COMBO_CT2, 0x403, 4, 0
+0x332d, 0x0030, 
+    IDC_COMBO_CT2, 0x403, 4, 0
+0x322d, 0x0030, 
+    IDC_COMBO_CT2, 0x403, 4, 0
+0x312d, 0x0030, 
+    IDC_COMBO_CT2, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_CT2, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_CT2, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO_CT2, 0x403, 3, 0
+0x3033, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About connectivity_test..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\connectivity_test.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
